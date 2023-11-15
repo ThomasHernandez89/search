@@ -1,12 +1,13 @@
 body {
   font-family: "Arial", sans-serif;
+  font-size: 18px;
 }
 
 li {
   display: inline-flex;
   list-style: none;
   margin: 3px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 a {
@@ -22,7 +23,7 @@ a {
 }
 
 .searchBar {
-  width: 650px;
+  width: 584px;
   height: 50px;
   font-size: 20px;
   padding: 5px 35px;
@@ -47,8 +48,8 @@ a {
   color: gray;
 }
 
-.Button:hover{
-    border-color: black;
+.Button:hover {
+  border-color: black;
 }
 
 .container {
@@ -67,4 +68,32 @@ a {
 
 .item3 {
   align-self: center;
+}
+
+.item4 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.label {
+  min-width: 200px;
+  min-height: 42px;
+  width: 16%;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.advSearchBar {
+  min-width: 500px;
+  min-height: 42px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.asb {
+  width: 499px;
+  height: 30px;
+  padding: 5px;
 }
