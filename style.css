@@ -15,6 +15,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: gray;
+}
+
+.imageLogo {
+  color: #4285f4;
+  position: absolute;
+  white-space: nowrap;
+}
+
 .mainDiv {
   display: flex;
   justify-content: center;
@@ -34,6 +44,21 @@ a {
   border-color: gray;
 }
 
+.advSearchBar {
+  min-width: 650px;
+  min-height: 42px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.searchBar:hover,
+.advSearchBar:hover {
+  transition: 0.8s ease-in;
+  box-shadow: 0 0 3px rgba(3, 3, 3, 0.557);
+}
+
 .Button {
   font-size: 18px;
   text-align: center;
@@ -50,6 +75,7 @@ a {
 
 .Button:hover {
   border-color: black;
+  color: black;
 }
 
 .container {
@@ -83,17 +109,12 @@ a {
   display: inline-block;
 }
 
-.advSearchBar {
-  min-width: 500px;
-  min-height: 42px;
-  width: 50%;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 5px;
-}
-
 .asb {
   width: 499px;
   height: 30px;
   padding: 5px;
+}
+
+#advSearchBar {
+  float: inline-end;
 }
